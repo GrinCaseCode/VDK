@@ -742,6 +742,7 @@ body {
     margin-bottom: 15px;
 }
 .footer-bottom {
+    margin-top: 0;
 	text-align: center;
 }
 .btn_top {
