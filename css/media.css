@@ -356,6 +356,134 @@
 .col-lg-9 .feature {
 	margin-bottom: 7px;
 }
+.page-mortgage .billbord__descr {
+    font-size: 22px;
+    max-width: 517px;
+}
+.unit-person__image {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 12px;
+}
+.unit-person__title {
+    font-size: 16px;
+    margin-bottom: 3px;
+    }
+    .unit-person__text {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 28px;
+}
+.catalog-mortgage .title-section {
+    padding: 28px 0;
+}
+.item-mortgage__name {
+    left: 17px;
+    bottom: 25px;
+    font-size: 27px;
+    padding: 4px 20px;
+    padding-bottom: 8px;
+}
+.item-mortgage__name span {
+    font-size: 20px;
+    }
+    .item-mortgage .title-middle {
+    margin-bottom: 12px;
+}
+.item-mortgage__content {
+    padding: 16px 20px;
+    }
+    .item-mortgage__image {
+    height: 290px;
+}
+.descr-section {
+    font-size: 18px;
+    padding-bottom: 33px;
+    }
+    .about-block__content {
+    padding: 21px 25px;
+    padding-right: 35px;
+}
+.about-block .title-middle {
+    margin-bottom: 10px;
+    }
+    .about-block_item::before {
+        width: 13px;
+        height: 13px;
+        top: 3px;
+    }
+    .about-block_item {
+    margin-top: 35px;
+    padding-left: 24px;
+}
+.about-block__image img {
+    max-width: 850px;
+}
+.about-block__image {
+    margin-bottom: -26px;
+    margin-left: -131px;
+}
+.about-block__tree {
+    transform: scale(0.9);
+    transform-origin: 100% 0;
+}
+.row_team {
+    padding: 0 125px;
+}
+.item-team {
+    padding: 25px;
+    padding-bottom: 30px;
+}
+.item-team__image {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 17px;
+    }
+    .item-team__title {
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+.about-advantages .item-advantage {
+    font-size: 17px;
+    padding-right: 177px;
+    margin-bottom: 20px;
+    }
+    .row_team > div {
+        margin-bottom: 20px;
+    }
+    .about-advantages .item-advantage__image {
+    left: 159px;
+}
+.about-advantages .row > div:nth-child(3) .item-advantage:last-child .item-advantage__image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-advantages {
+    padding-bottom: 105px;
+    }
+    .page-thanks {
+    padding-top: 80px;
+    padding-bottom: 95px;
+}
+.thanks-block {
+    padding: 55px;
+    }
+    .thanks-block__title {
+    font-size: 36px;
+    padding-bottom: 5px;
+}
+.thanks-block__descr {
+    font-size: 28px;
+    padding-bottom: 22px;
+    }
+    .thanks-block__text {
+    font-size: 17px;
+    max-width: 340px;
+}
+.thanks-block .btn-main {
+    padding: 0 41px;
+    margin-top: 40px;
+}
 }
 @media only screen and (max-width : 1400px) {
     .container-fluid {
@@ -606,6 +734,52 @@ body {
 .title-section sup {
     font-size: 16px;
 }
+.item-mortgage__name {
+    left: 15px;
+    bottom: 20px;
+    font-size: 23px;
+    padding: 4px 20px;
+    padding-bottom: 9px;
+}
+.item-mortgage__name span {
+    font-size: 17px;
+}
+.descr-section {
+    font-size: 16px;
+    padding-bottom: 28px;
+    }
+    .about-block__image img {
+    max-width: 600px;
+}
+.about-block__image {
+    margin-bottom: -26px;
+    margin-left: -72px;
+}
+.about-block_item {
+    margin-top: 20px;
+}
+.team .title-section {
+    padding-bottom: 25px;
+}
+.row_team {
+    padding: 0 80px;
+}
+.item-team {
+    padding: 20px;
+    padding-bottom: 25px;
+}
+.item-team__image {
+    width: 160px;
+    height: 160px;
+}
+.about-advantages .item-advantage {
+    font-size: 14px;
+    padding-right: 136px;
+    }
+    .page-thanks {
+    padding-top: 55px;
+    padding-bottom: 75px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -813,6 +987,63 @@ body {
 .title-section sup {
     font-size: 14px;
 }
+.unit-person__text {
+    padding: 20px;
+    padding-bottom: 0;
+}
+.unit-person {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.item-mortgage__image {
+    height: 310px;
+    margin-bottom: 20px;
+}
+.item-mortgage__image img {
+    object-position: top;
+}
+.page-mortgage .billbord__descr {
+    font-size: 18px;
+    max-width: 427px;
+}
+.page-about .title-section {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.about-block__tree {
+    top: -78px;
+    }
+    .about-block__image {
+        margin: 0;
+    }
+    .about-block__image img {
+        max-width: 100%;
+        height: auto;
+    }
+    .about-block {
+        padding-bottom: 25px;
+    }
+    .row_team > div {
+        margin-bottom: 12px;
+    }
+    .row_team {
+    justify-content: center;
+    }
+    .item-advantage p {
+        max-width: 300px;
+    }
+    .about-advantages .image-advantage {
+        margin-bottom: 20px;
+    }
+    .about-advantages .item-advantage {
+        padding-right: 163px;
+    }
+    .about-advantages .item-advantage__image {
+        padding-bottom: 0;
+    }
+    .about-advantages {
+    padding-bottom: 77px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -925,6 +1156,53 @@ body {
 .item-dropdown__content p {
 	margin-bottom: 15px;
 }
+.page-mortgage .billbord__descr {
+    font-size: 16px;
+    max-width: 373px;
+}
+.page-mortgage .billbord-page {
+    margin-bottom: 25px;
+}
+.unit-person__text p {
+    margin-bottom: 15px;
+}
+.item-mortgage__image img {
+    object-position: center;
+}
+.catalog-mortgage + .section-portfolio {
+    padding-bottom: 75px;
+}
+.row_team {
+    padding: 0;
+}
+.about-block_item {
+    font-size: 13px;
+}
+.about-advantages .item-advantage__image {
+    left: auto;
+    justify-content: flex-end;
+}
+.about-advantages .row > div:nth-child(3) .item-advantage:last-child .item-advantage__image {
+    padding-right: 15px;
+}
+.thanks-block {
+    padding: 40px;
+}
+.page-thanks {
+    padding: 50px 0;
+}
+.thanks-block__title {
+    font-size: 32px;
+    padding-bottom: 3px;
+}
+.thanks-block__descr {
+    font-size: 23px;
+    padding-bottom: 17px;
+}
+.thanks-block__text {
+    font-size: 15px;
+    max-width: 299px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1033,6 +1311,67 @@ body {
 .section-portfolio .title-section {
     padding-bottom: 20px;
 }
+.catalog-mortgage + .section-portfolio {
+    padding-bottom: 58px;
+}
+.descr-section {
+    font-size: 14px;
+    padding-bottom: 24px;
+}
+.catalog-mortgage + .section-portfolio .title-section {
+    padding-top: 10px;
+}
+.item-mortgage__image {
+    height: 250px;
+}
+.page-mortgage .billbord__descr {
+    font-size: 14px;
+    max-width: 330px;
+}
+.about-block__tree {
+    transform: scale(0.7);
+}
+.about-block__tree {
+    right: -300px;
+}
+.about-block__content {
+    padding: 20px;
+}
+.about-block_item {
+    font-size: 12px;
+    line-height: 140%;
+}
+.item-team {
+    padding: 12px;
+    padding-bottom: 18px;
+    font-size: 13px;
+    line-height: 140%;
+}
+.item-team__title {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.item-team__image {
+    width: 130px;
+    height: 130px;
+}
+.about-advantages {
+    padding-bottom: 60px;
+}
+.thanks-block {
+    padding: 40px 25px;
+}
+.thanks-block__descr {
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+.thanks-block__text {
+    font-size: 14px;
+    max-width: 280px;
+}
+.thanks-block__title {
+    font-size: 29px;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -1073,4 +1412,10 @@ body {
 	.container {
         max-width: 1470px;
     }
+}
+@media only screen and (min-width : 1930px) {
+    .portfolio::before,
+.about-advantages::before {
+    background-size: cover;
+}
 }

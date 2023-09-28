@@ -253,7 +253,7 @@ form {
 	box-shadow: 0 4px 0 #A1753B;
 }
 .btn-main:hover {
-	box-shadow: 0 0px 0 #A1753B;
+	box-shadow: 0 5px 20px #FADDA3;
 }
 .billbord .btn-main {
 	margin-top: 115px;
@@ -1283,4 +1283,332 @@ form {
 }
 .item-portfolio .title-middle span {
 	white-space: nowrap;
+}
+.page-mortgage .billbord-page {
+	margin-bottom: 40px;
+	background-image: url(../img/billbord_mortgage.jpg);
+}
+.page-mortgage .billbord__price {
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+.page-mortgage .billbord__title {
+	margin-bottom: 11px;
+}
+.page-mortgage .billbord__descr {
+	font-size: 26px;
+	max-width: 607px;
+}
+.unit-person {
+	padding: 31px 0;
+	border-radius: 20px;
+	border: 1px solid rgba(225, 218, 193, 0.05);
+	background: linear-gradient(180deg, #222427 0%, #0E1015 100%), #D9D9D9;
+}
+.unit-person__image {
+	width: 213px;
+	height: 213px;
+	margin: 0 auto;
+	margin-bottom: 17px;
+	display: block;
+	border-radius: 50%;
+}
+.unit-person__image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	border-radius: 50%;
+}
+.unit-person__title {
+	font-size: 18px;
+	margin-bottom: 5px;
+	line-height: 140%;
+	font-weight: 500;
+	color: #C1A780;
+	text-align: center;
+}
+.unit-person__descr {
+	text-align: center;
+}
+.unit-person__text p {
+	margin-bottom: 20px;
+}
+.unit-person__text {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 37px;
+}
+.catalog-mortgage .title-section {
+	padding: 38px 0;
+}
+.item-mortgage {
+	margin-bottom: 30px;
+}
+.item-mortgage__image {
+	height: 310px;
+	border-radius: 10px;
+	display: block;
+	position: relative;
+}
+.item-mortgage__image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	border-radius: 10px;
+}
+.item-mortgage__name {
+	left: 19px;
+	bottom: 35px;
+	font-size: 32px;
+	padding: 4px 30px;
+	line-height: 140%;
+	font-weight: 700;
+	color: #fff;
+	position: absolute;
+	max-width: 90%;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.10);
+	backdrop-filter: blur(10px);
+}
+.item-mortgage__name span {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 140%;
+	display: block;
+}
+.item-mortgage__content {
+	padding: 21px 38px;
+	border-radius: 20px;
+	border: 1px solid rgba(225, 218, 193, 0.05);
+	background: linear-gradient(180deg, #222427 0%, #0E1015 100%), #D9D9D9;
+	min-height: 100%;
+}
+.item-mortgage .title-middle {
+	margin-bottom: 16px;
+	color: #C1A780;
+}
+.descr-section {
+	font-size: 20px;
+	padding-bottom: 40px;
+	font-weight: 500;
+	line-height: 140%;
+	color: #E1DAC1;
+	text-align: center;
+}
+.catalog-mortgage + .section-portfolio .title-section {
+	padding-bottom: 15px;
+}
+.catalog-mortgage + .section-portfolio {
+	padding-bottom: 100px;
+}
+.catalog-mortgage .container {
+	position: relative;
+	z-index: 1;
+}
+.circle_mortgage1 {
+	top: 230px;
+	left: -140px;
+}
+.circle_mortgage2 {
+	top: 1100px;
+	left: -257px;
+}
+.circle_mortgage3 {
+	top: -1px;
+	right: -178px;
+}
+.circle_mortgage4 {
+	top: 1245px;
+	right: -221px;
+}
+.page-mortgage {
+	position: relative;
+	z-index: 2;
+}
+.page-about .title-section {
+	padding: 30px 0;
+	text-align: left;
+}
+.about-block {
+	border-radius: 20px;
+	position: relative;
+	border: 1px solid rgba(225, 218, 193, 0.05);
+	background: linear-gradient(180deg, #222427 0%, #0E1015 100%), #D9D9D9;
+}
+.about-block__image {
+	margin-bottom: -26px;
+	margin-left: -180px;
+	position: relative;
+	z-index: 2;
+}
+.about-block__content {
+	padding: 21px 39px;
+	padding-right: 55px;
+	position: relative;
+	z-index: 2;
+}
+.about-block .title-middle {
+	margin-bottom: 16px;
+	color: #C1A780;
+}
+.about-block_item {
+	margin-top: 48px;
+	padding-left: 30px;
+	position: relative;
+}
+.about-block_item::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/check.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.about-block__tree {
+	top: -52px;
+	right: -344px;
+	position: absolute;
+}
+.item-team {
+	padding: 30px;
+	padding-bottom: 36px;
+	line-height: 140%;
+	text-align: center;
+	min-height: 100%;
+	border-radius: 20px;
+	border: 1px solid rgba(225, 218, 193, 0.05);
+	background: linear-gradient(180deg, #222427 0%, #0E1015 100%), #D9D9D9;
+}
+.row_team {
+	padding: 0 180px;
+}
+.row_team > div {
+	margin-bottom: 30px;
+}
+.item-team__image {
+	width: 213px;
+	height: 213px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	display: block;
+	border-radius: 50%;
+}
+.item-team__image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	border-radius: 50%;
+}
+.item-team__title {
+	font-size: 18px;
+	margin-bottom: 14px;
+	color: #C1A780;
+	line-height: 140%;
+	font-weight: 500;
+}
+.team .title-section {
+	padding-bottom: 34px;
+}
+.about-advantages .item-advantage {
+	font-size: 20px;
+	padding-right: 224px;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+.about-advantages .item-advantage__image {
+	left: 208px;
+}
+.about-advantages {
+	padding-bottom: 156px;
+	position: relative;
+}
+.about-advantages::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	top: -300px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(../img/bg_portfolio.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	z-index: -1;
+}
+.about-advantages .container,
+.team .container {
+	position: relative;
+	z-index: 1;
+}
+.circle_team1 {
+	left: -200px;
+	top: 230px;
+}
+.circle_avd1 {
+	right: -147px;
+	top: 300px;
+}
+.about-block__image img {
+	max-width: 1062px;
+}
+.about-advantages .title-section {
+	padding-top: 30px;
+}
+.page-thanks {
+	padding-top: 105px;
+	padding-bottom: 132px;
+	background-image: url(../img/bg_thanks.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.thanks-block {
+	padding: 76px;
+	text-align: center;
+	border-radius: 20px;
+	border: 1px solid rgba(225, 218, 193, 0.05);
+	background: linear-gradient(180deg, #222427 0%, #0E1015 100%), #D9D9D9;
+}
+.thanks-block__title {
+	font-size: 40px;
+	padding-bottom: 7px;
+	color: #C1A780;
+	font-weight: 900;
+	line-height: 140%;
+	text-transform: uppercase;
+}
+.thanks-block__descr {
+	font-size: 32px;
+	padding-bottom: 30px;
+	color: #FFF;
+	font-weight: 700;
+	line-height: 140%; 
+	text-transform: uppercase;
+}
+.thanks-block__text {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 160%;
+	max-width: 400px;
+	color: #FFF;
+	margin: 0 auto;
+}
+.thanks-block .btn-main {
+	padding: 0 63px;
+	margin-top: 56px;
+}
+.page-contacts {
+	padding-bottom: 63px;
+}
+.page-contacts .title-section {
+	padding-top: 14px;
+	padding-bottom: 37px;
 }
