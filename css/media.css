@@ -90,18 +90,18 @@
         padding-left: 25px;
     }
     .bottom-billbord__item::before {
-       width: 14px;
-       height: 14px;
-   }
-   .left-tree {
-       transform: scale(0.9);
-       transform-origin: 100% 100%;
-   }
-   .right-tree {
-       transform: scale(0.9);
-       transform-origin: 100% 0;
-   }
-   .title-section {
+     width: 14px;
+     height: 14px;
+ }
+ .left-tree {
+     transform: scale(0.9);
+     transform-origin: 100% 100%;
+ }
+ .right-tree {
+     transform: scale(0.9);
+     transform-origin: 100% 0;
+ }
+ .title-section {
     font-size: 33px;
     padding: 40px 0;
 }
@@ -192,7 +192,7 @@
     font-size: 27px;
 }
 .steps {
-   padding-bottom: 50px;
+ padding-bottom: 50px;
 }
 .title-main {
     font-size: 50px;
@@ -509,6 +509,49 @@
 .page-contacts .title-section {
     padding-bottom: 25px;
 }
+.header-center .logo img {
+    width: 190px;
+}
+.header-center .logo {
+    margin: 0px 9px;
+}
+.header-center__text {
+    width: 188px;
+}
+.btn-menu {
+    padding: 0 21px;
+    padding-right: 22px;
+    font-size: 13px;
+    height: 50px;
+}
+.header_index .header__left {
+    padding-top: 26px;
+}
+.header_index .header__contacts {
+    padding-top: 28px;
+}
+.item-frontpage__image img {
+    transform: scale(0.8);
+    transform-origin: 0 50%;
+}
+.item-frontpage__image + .item-frontpage__image img {
+ transform-origin: 100% 50%;
+}
+.item-frontpage .btn-main {
+    min-width: 250px;
+    font-size: 16px;
+}
+.item-frontpage {
+    height: 300px;
+}
+.item-frontpage__image {
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+.item-frontpage__image + .item-frontpage__image {
+    right: 10px;
+}
 }
 @media only screen and (max-width : 1400px) {
     .container-fluid {
@@ -528,13 +571,17 @@
         margin-left: 4px;
         font-size: 10px;
     }
+    .menu-dropdown {
+    padding: 20px;
+    width: 275px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .header__wrapper .header__location {
-       display: none;
-   }
-   .menu a {
+     display: none;
+ }
+ .menu a {
     font-size: 12px;
 }
 .container-fluid {
@@ -817,6 +864,26 @@ body {
 .page-contacts {
     padding-bottom: 47px;
 }
+.header-center .logo img {
+    width: 140px;
+}
+.header-center__text {
+    width: 157px;
+    font-size: 10px;
+}
+.header-center .logo span {
+    margin-top: -9px;
+    font-size: 10px;
+}
+.header-center .logo {
+    margin: 0;
+}
+.item-frontpage__image img {
+    transform: scale(0.7);
+}
+.item-frontpage {
+    height: 260px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -825,12 +892,12 @@ body {
 	.header__wrapper .social-list,
 	.header__wrapper .contacts-wrap,
     .header__wrapper .menu {
-       display: none;
-   }
-   .bottom-billbord__item {
-       margin-top: 15px;
-   }
-   .billbord__descr {
+     display: none;
+ }
+ .bottom-billbord__item {
+     margin-top: 15px;
+ }
+ .billbord__descr {
     font-size: 18px;
 }
 .billbord__title {
@@ -1095,33 +1162,95 @@ body {
 .unit-contact {
     line-height: 140%;
 }
+.header__left,
+.header-center .logo span,
+.header-center__text {
+    display: none;
+}
+.header_index .header__contacts {
+    flex: none;
+    padding-top: 0;
+}
+.header_index .header__wrapper {
+    align-items: center;
+}
+.header-center .logo img {
+    width: 115px;
+}
+.header_index {
+    border-bottom: 1px solid rgba(193, 167, 128, 0.1);
+}
+.front-page {
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
+.item-frontpage__image {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.item-frontpage__image img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transform: none;
+    transform-origin: initial;
+}
+.item-frontpage {
+    padding: 20px;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+}
+.item-frontpage .btn-main + .item-frontpage__image {
+    order: -2;
+}
+.item-frontpage .btn-main {
+    margin: 15px 0;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 14px;
+    min-width: initial;
+}
+.header_index .header__contacts {
+    justify-content: flex-start;
+}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     .billbord {
-       background-position: 36% 50%;
-   }
-   .left-tree,
-   .right-tree {
-       display: none;
-   }
-   .item-advantage__image {
-       width: 200px;
-       padding: 0;
-       left: auto;
-   }
-   .row_advantages > div:first-child .item-advantage__image {
-       left: auto;
-   }
-   .slider-portfolio {
-       padding-bottom: 30px;
-   }
-   .item-portfolio {
-       font-size: 13px;
-       line-height: 140%;
-   }
-   .item-portfolio .title-middle {
+     background-position: 36% 50%;
+ }
+ .left-tree,
+ .right-tree {
+     display: none;
+ }
+ .item-advantage__image {
+     width: 200px;
+     padding: 0;
+     left: auto;
+ }
+ .row_advantages > div:first-child .item-advantage__image {
+     left: auto;
+ }
+ .slider-portfolio {
+     padding-bottom: 30px;
+ }
+ .item-portfolio {
+     font-size: 13px;
+     line-height: 140%;
+ }
+ .item-portfolio .title-middle {
     font-size: 16px;
 }
 .item-portfolio .title-middle sup {
@@ -1257,6 +1386,9 @@ body {
 .page-contacts .title-section {
     padding-bottom: 18px;
 }
+.item-frontpage__image {
+    height: 120px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1271,9 +1403,9 @@ body {
         font-size: 16px;
     }
     .bottom-billbord {
-       padding: 12px 12px;
-   }
-   .item-advantage {
+     padding: 12px 12px;
+ }
+ .item-advantage {
     padding-right: 182px;
 }
 .item-advantage__image {
@@ -1440,6 +1572,22 @@ body {
 .block-form {
     padding: 30px 25px;
 }
+.row_frontpage {
+    margin: 0 -3px;
+}
+.row_frontpage > div {
+    padding: 0 3px;
+}
+.item-frontpage {
+    padding: 15px 10px;
+}
+.item-frontpage .btn-main {
+    font-size: 12px;
+    height: 45px;
+}
+.item-frontpage__image {
+    height: 105px;
+}
 }
 
 /* Custom, iPhone Retina */
@@ -1468,8 +1616,8 @@ body {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     .menu-mobile {
-       display: none !important;
-   }
+     display: none !important;
+ }
 }
 
 /* Large Devices, Wide Screens */

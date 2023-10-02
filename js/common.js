@@ -23,7 +23,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 
 	//кнопка sandwich
-	$(".sandwich").click(function() {
+	$(".sandwich_mobile").click(function() {
 		$(this).toggleClass("active");
 		if ($(".menu-mobile").is(":hidden")) {
 			$(".menu-mobile").slideDown(200);
@@ -38,8 +38,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
   $(".menu-overlay").click(function() {
     $(".menu-mobile").slideUp(200);
-    $(".sandwich").removeClass("active");
+    $(".sandwich_mobile").removeClass("active");
     $(".menu-overlay").fadeOut(200);
+  });
+
+   $(".btn-menu").click(function() {
+    $(".menu-dropdown").slideToggle(200);
+    $(this).find(".sandwich").toggleClass("active");
   });
 
     $(".item-dropdown__head").click(function() {
